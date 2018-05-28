@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212719129111277420}
   - component: {fileID: 61111400964563216}
   - component: {fileID: 95771052555334008}
+  - component: {fileID: 114287072871744730}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -51,7 +52,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000059604645, y: -0.14558595}
@@ -84,6 +85,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114287072871744730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614220651524106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e0e64c31ce7ef47b75fc6717ee5c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollingSpeed: 8
 --- !u!212 &212719129111277420
 SpriteRenderer:
   m_ObjectHideFlags: 1
