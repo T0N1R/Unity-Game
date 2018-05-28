@@ -8,7 +8,7 @@ public class ForestScript : MonoBehaviour
     public float jumpForce = 200f;
     private Rigidbody2D rb;
     public Animator anim;
-    private float move;
+   // private float move;
     public GameObject feet;
     public LayerMask layerMask;
    // AudioSource muerteS;
@@ -25,7 +25,7 @@ public class ForestScript : MonoBehaviour
 
     void Update()
     {
-        move = Input.GetAxis("Horizontal");
+        //move = Input.GetAxis("Horizontal");
 
         //anim.SetFloat("Speed", Mathf.Abs(move)*speed);
 
