@@ -27,7 +27,7 @@ public class ColumnSpawner : MonoBehaviour
             }
             else
             {
-                float random = Random.Range(-3.1f, -3f);
+                float random = Random.Range(-3.1f, -2f);
                 if (column != null)
                     Instantiate(column, new Vector3(9, random, 0), Quaternion.identity);
 
