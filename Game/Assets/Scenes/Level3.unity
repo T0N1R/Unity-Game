@@ -1207,7 +1207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 107.4}
+  m_AnchoredPosition: {x: 1.8, y: 103.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1845500899
@@ -1251,12 +1251,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1845500897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54509223fd8acf04a9d3ba7781389bfb, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d2d917bbca82604eaf9c0c9732783cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: 
-  timeLeft: 100
-  countdownText: {fileID: 510356288}
+  timeLeft: 30
+  countdownText: {fileID: 1845500899}
 --- !u!222 &1845500901
 CanvasRenderer:
   m_ObjectHideFlags: 0
