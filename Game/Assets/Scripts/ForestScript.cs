@@ -28,14 +28,17 @@ public class ForestScript : MonoBehaviour
         //move = Input.GetAxis("Horizontal");
 
         //anim.SetFloat("Speed", Mathf.Abs(move)*speed);
+        if (transform.position.y < -2)
+        {
 
         if (Input.GetMouseButtonDown(0))
         {
-            
+
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
             saltoS.Play();
-            
+
+        }
         }
     }
 
